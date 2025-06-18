@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angie Blas - CV Interactivo</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    
+    <!-- Header Section -->
+    <header class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <!-- EDITABLE: Información personal -->
+                    <div class="profile-image-container">
+                        <img src="./images/onichan uwu nya.jpg" alt="Angie Blas" class="profile-image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="typewriter">
+                            Hola, soy <span class="highlight">Angelina Blas Devia</span>
+                        </h1>
+                        <p class="subtitle typewriter-subtitle">
+                            Ingeniera en sistemas
+                        </p>
+                        <!-- EDITABLE: Descripción breve -->
+                        <p class="hero-description">
+                            Ingeniera en sistemas creando tecnología con impacto social. Transformo problemas reales en soluciones digitales accesibles para comunidades.
+                        </p>
+                        
+                        <!-- Social Media Buttons -->
+                        <div class="social-buttons">
+                            <!-- EDITABLE: Enlaces de redes sociales -->
+                            <a href="#" class="social-btn" data-tooltip="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-btn" data-tooltip="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-btn" data-tooltip="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="#" class="social-btn" data-tooltip="Portfolio">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Background Elements -->
+        <div class="floating-elements">
+            <div class="floating-code">
+                <span>&lt;/&gt;</span>
+            </div>
+            <div class="floating-code">
+                <span>{ }</span>
+            </div>
+            <div class="floating-code">
+                <span>console.log();</span>
+            </div>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Sobre Mí</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <!-- EDITABLE: Información personal -->
+                        <h3>¡Hola! Soy Angi</h3>
+                        <p><strong>Edad:</strong> 26 años</p>
+                        <p><strong>Ubicación:</strong> Córdoba, Argentina (con disponibilidad para remoto global)</p>
+                        <p><strong>Especialidad:</strong> Ingeniera en Sistemas | Desarrollo Full Stack con enfoque en tecnología social</p>
+                        
+                        <!-- EDITABLE: Biografía -->
+                        <p class="bio">
+                            Soy una profesional argentina formada en ingeniería de sistemas, 
+                            especializada en desarrollar soluciones tecnológicas accesibles para 
+                            comunidades vulnerables. Con 6 años de experiencia, he trabajado en 
+                            proyectos que combinan innovación con necesidades sociales reales, 
+                            priorizando siempre el impacto local y la sostenibilidad.
+                        </p>
+                        
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Proyectos comunitarios</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">6+</span>
+                                <span class="stat-label">Años Experiencia</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Tecnologías</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-visual">
+                        <div class="code-animation">
+                            <div class="code-line">
+                                <span class="code-keyword">const</span> 
+                                <span class="code-variable">developer</span> = {
+                            </div>
+                            <div class="code-line">
+                                &nbsp;&nbsp;<span class="code-property">name</span>: <span class="code-string">'Angie Blas'</span>,
+                            </div>
+                            <div class="code-line">
+                                &nbsp;&nbsp;<span class="code-property">skills</span>: [<span class="code-string">'JavaScript'</span>, <span class="code-string">'React'</span>, <span class="code-string">'Node.js'</span>, <span class="code-string">'Python'</span>,<span class="code-string">'IA Ética'</span>],
+                            </div>
+                            <div class="code-line">
+                                &nbsp;&nbsp;<span class="code-property">passion</span>: <span class="code-string">'Código con impacto social', 'Educación tecnológica', 'Voluntariado global'</span>
+                            </div>
+                            <div class="code-line">
+                                };
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Experiencia</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- EDITABLE: Experiencia laboral -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="experience-card" data-aos="fade-up">
+                        <div class="company-logo">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>FIngeniera de Software - Área Social</h3>
+                        <h4>Globant Argentina/h4>
+                        <p class="period">2030 - Presente</p>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Desarrollo de plataformas educativas con IA adaptativa para zonas rurales.</li>
+                                <li>Capacitación mensual a ONGs en uso de herramientas digitales.</li>
+                                <li>Ayudantía: Mentoría a pasantes del programa "Mujeres en Tech".</li>
+                            </ul>
+                        </div>
+                        <div class="technologies">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag"> Node.js</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="company-logo">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Coordinadora Tecnológica Voluntaria</h3>
+                        <h4>Rotary International</h4>
+                        <p class="period">2028 - Presente</p>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Diseñé sistema de gestión de voluntariado usado en 12 países.</li>
+                                <li>Creación de tutoriales interactivos para comunidades indígenas.</li>
+                                <li>Ayudantía: Soporte técnico remoto a clubes Rotarios en África.</li>
+                            </ul>
+                        </div>
+                        <div class="technologies">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">GIS Mapping</span>
+                            <span class="tech-tag">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="company-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Desarrolladora Full Stack Jr</h3>
+                        <h4>Cooperativa Tecnológica Córdoba</h4>
+                        <p class="period">2026 - 2029</p>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Migración segura de datos de municipalidad a sistema cloud.</li>
+                                <li>Talleres de programación básica para adolescentes.</li>
+                                <li>Ayudantía: Asistencia en mantenimiento de servidores Linux.</li>
+                            </ul>
+                        </div>
+                        <div class="technologies">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Habilidades</h2>
+                </div>
+            </div>
+            
+            <!-- Skill Categories -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="skill-categories">
+                        <button class="category-btn active" data-category="all">Todas</button>
+                        <button class="category-btn" data-category="frontend">Frontend</button>
+                        <button class="category-btn" data-category="backend">Backend</button>
+                        <button class="category-btn" data-category="tools">Herramientas</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Grid -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="skills-grid">
+                        <!-- EDITABLE: Habilidades técnicas -->
+                        <div class="skill-chip" data-category="frontend" data-skill="HTML5">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        
+                        <div class="skill-chip" data-category="frontend" data-skill="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        
+                        <div class="skill-chip" data-category="frontend" data-skill="JavaScript">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        
+                        <div class="skill-chip" data-category="frontend" data-skill="React">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                        
+                        <div class="skill-chip" data-category="backend" data-skill="Node.js">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                        
+                        <div class="skill-chip" data-category="backend" data-skill="Python">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-level" data-level="65"></div>
+                        </div>
+                        
+                        <div class="skill-chip" data-category="tools" data-skill="Git">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        
+                        <div class="skill-chip" data-category="tools" data-skill="Figma">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Proyectos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- EDITABLE: Proyectos -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/8B5CF6/FFFFFF?text=E-Commerce" alt="E-Commerce App">
+                            <div class="project-overlay">
+                                <button class="project-btn" onclick="openProjectModal('project1')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="project-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Red "Voluntarios Tech"</h3>
+                            <p>Marketplace que conecta desarrolladores con ONGs necesitadas de soporte tecnológico pro bono.</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Google Maps API</span>
+                                <span class="tag">Material UI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/EC4899/FFFFFF?text=Task+Manager" alt="Task Manager">
+                            <div class="project-overlay">
+                                <button class="project-btn" onclick="openProjectModal('project2')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="project-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Sistema "EcoMonitor"</h3>
+                            <p>Red de sensores IoT + app para monitorear y recuperar ecosistemas vulnerables.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Raspberry Pi</span>
+                                <span class="tag">React Native</span>
+                                <span class="tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/06B6D4/FFFFFF?text=Weather+App" alt="Weather App">
+                            <div class="project-overlay">
+                                <button class="project-btn" onclick="openProjectModal('project3')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="project-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Plataforma "Aprender Juntos"</h3>
+                            <p>Sistema educativo adaptativo para comunidades rurales con IA contextual y tutorías remotas.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">TensorFlow Lite</span>
+                                <span class="tag">WebRTC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Contacto</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" id="name" name="name" required>
+                                        <label for="name">Nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" id="email" name="email" required>
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" required>
+                                <label for="subject">Asunto</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <label for="message">Mensaje</label>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span>Enviar Mensaje</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- EDITABLE: Información de contacto -->
+                    <p>&copy; 2025 Angielina Blas Devia. Hecho con ❤️ y mucho código.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Project Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="projectModal1" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Red "Voluntarios Tech"</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-demo">
+                        <img src="https://via.placeholder.com/600x400/8B5CF6/FFFFFF?text=E-Commerce+Demo" alt="Demo" class="img-fluid">
+                    </div>
+                    <div class="project-details">
+                        <h6>Características principales:</h6>
+                        <ul>
+                            <li>Mapa interactivo: Visualiza proyectos por ubicación y tipo de ayuda (diseño, backend, etc.).</li>
+                            <li>Sistema de créditos: Horas donadas = acceso a cursos premium/certificaciones.</li>
+                            <li>Match automático: Recomienda proyectos según tus skills e idiomas.</li>
+                            <li>Dashboard impacto: Muestra métricas de cambio generado (personas beneficiadas).</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <strong>Tecnologías:</strong>
+                            <span class="tech-badge">Cloud Functions</span>
+                            <span class="tech-badge">Firestore</span>
+                            <span class="tech-badge">OAuth 2.0</span>
+                            <span class="tech-badge">Data Studio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 2 -->
+    <div class="modal fade" id="projectModal2" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sistema "EcoMonitor"</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-demo">
+                        <img src="https://via.placeholder.com/600x400/EC4899/FFFFFF?text=Task+Manager+Demo" alt="Demo" class="img-fluid">
+                    </div>
+                    <div class="project-details">
+                        <h6>Características principales:</h6>
+                        <ul>
+                            <li>Sensor forestal: Mide humedad, CO2 y alerta incendios (30km de alcance)</li>
+                            <li>App comunitaria: Ciudadanos reportan problemas ambientales con geotag.</li>
+                            <li>IA predictiva: Anticipa sequías/inundaciones con datos históricos.</li>
+                            <li>Gamificación: Usuarios ganan badges por acciones ecológicas verificadas.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <strong>Tecnologías:</strong>
+                            <span class="tech-badge">LoRaWAN</span>
+                            <span class="tech-badge">TensorFlow</span>
+                            <span class="tech-badge">Mapbox GL JS</span>
+                            <span class="tech-badge">JWT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 3 -->
+    <div class="modal fade" id="projectModal3" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Plataforma "Aprender Juntos"</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-demo">
+                        <img src="https://via.placeholder.com/600x400/06B6D4/FFFFFF?text=Weather+App+Demo" alt="Demo" class="img-fluid">
+                    </div>
+                    <div class="project-details">
+                        <h6>Características principales:</h6>
+                        <ul>
+                            <li>iblioteca modular: Cursos que se autoajustan al nivel educativo local (ej: matemáticas con ejemplos agrícolas).</li>
+                            <li>Tutorías 1:1: Videollamadas de baja banda ancha optimizadas para zonas sin fibra óptica.</li>
+                            <li>Modo offline: Funcionalidad completa sin internet (sync al reconectar).</li>
+                            <li>Traductor cultural: Adapta contenidos a contextos indígenas (quechua/guaraní).</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <strong>Tecnologías:</strong>
+                            <span class="tech-badge">AWS Lambda</span>
+                            <span class="tech-badge">SQLite</span>
+                            <span class="tech-badge">i18next</span>
+                            <span class="tech-badge">Progressive Web App</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Skill Detail Modal -->
+    <div class="modal fade" id="skillModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="skillModalTitle">Habilidad</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="skill-progress">
+                        <div class="progress-bar" id="skillProgressBar"></div>
+                    </div>
+                    <div class="skill-description" id="skillDescription">
+                        <!-- Contenido se carga dinámicamente -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Configuration -->
+    <script src="js/config.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
